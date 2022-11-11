@@ -1,1 +1,1 @@
-Study repository for Computer Programming I (BIM101).
+Class files of mine which are created for Java studies and reviews.
