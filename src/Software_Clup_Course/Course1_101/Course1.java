@@ -1,4 +1,4 @@
-package Software_Clup_Course;
+package Software_Clup_Course.Course1_101;
 
 import java.util.Arrays;
 
