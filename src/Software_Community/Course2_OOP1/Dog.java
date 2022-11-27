@@ -1,6 +1,4 @@
-package Software_Clup_Course.Course2_OOP1;
-
-import Software_Clup_Course.Course2_OOP1.Animal;
+package Software_Community.Course2_OOP1;
 
 public class Dog extends Animal {
 

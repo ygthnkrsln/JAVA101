@@ -1,4 +1,4 @@
-package Software_Clup_Course.Course2_OOP1;
+package Software_Community.Course2_OOP1;
 
 public class Animal {
 
