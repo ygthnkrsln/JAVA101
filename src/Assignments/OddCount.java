@@ -41,16 +41,16 @@ public class OddCount {
 
         } else System.out.printf("The closed interval is [%d,%d]\n", a, b);
 
-        long beforeLoopBasedMethod = System.currentTimeMillis();
+        long beforeLBM = System.currentTimeMillis();
         loopBasedCount(a, b);
-        long afterLoopBasedMethod = System.currentTimeMillis();
+        long afterLBM = System.currentTimeMillis();
 
-        System.out.println("\nLoop-based method takes " + (afterLoopBasedMethod - beforeLoopBasedMethod) + " milliseconds.");
+        System.out.println("\nLoop-based method takes " + (afterLBM - beforeLBM) + " milliseconds.");
 
-        long beforeMathBasedMethod = System.currentTimeMillis();
+        long beforeMBM = System.currentTimeMillis();
         mathBasedCount(a, b);
-        long afterMathBasedMethod = System.currentTimeMillis();
+        long afterMBM = System.currentTimeMillis();
 
-        System.out.println("\nMath-based method takes " + (afterMathBasedMethod - beforeMathBasedMethod) + " milliseconds.");
+        System.out.println("\nMath-based method takes " + (afterMBM - beforeMBM) + " milliseconds.");
     }
 }
