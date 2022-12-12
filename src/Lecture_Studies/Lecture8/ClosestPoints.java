@@ -1,6 +1,6 @@
 package Lecture_Studies.Lecture8;
 
-public class FindNearestPoints {
+public class ClosestPoints {
     public static void main(String[] args) {
         double[][] coordinates = new double[][]{
                 {-1, 3},
