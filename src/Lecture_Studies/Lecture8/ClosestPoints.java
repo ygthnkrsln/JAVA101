@@ -1,6 +1,10 @@
 package Lecture_Studies.Lecture8;
 
 public class ClosestPoints {
+    public static double distance(double x1, double y1, double x2, double y2) {
+        return Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+    }
+
     public static void main(String[] args) {
         double[][] coordinates = new double[][]{
                 {-1, 3},
@@ -37,9 +41,5 @@ public class ClosestPoints {
         System.out.printf("Minimum distance = %.2f\n", min);
         System.out.printf("Point 1 = [%.1f, %.1f]\n", coordinates[p1][0], coordinates[p1][1]);
         System.out.printf("Point 2 = [%.1f, %.1f]\n", coordinates[p2][0], coordinates[p2][1]);
-    }
-
-    public static double distance(double x1, double y1, double x2, double y2) {
-        return Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
     }
 }
