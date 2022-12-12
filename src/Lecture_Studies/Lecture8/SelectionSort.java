@@ -24,7 +24,7 @@ public class SelectionSort {
     }
 
     public static void main(String[] args) {
-        int[] testArray = new int[]{3, 5, 19, 26, 30, 1, 49, 93, 8, 12, -9, -19, -5};
+        int[] testArray = new int[] {3, 5, 19, 26, 30, 1, 49, 93, 8, 12, -9, -19, -5};
 
         System.out.println("The array can be visualized as " + Arrays.toString(testArray));
         selectionSort(testArray);
