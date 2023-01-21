@@ -1,1 +1,1 @@
-Class files of mine which are created for Java studies and reviews.
+Repository for BIM101 studies and reviews.
